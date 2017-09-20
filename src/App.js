@@ -11,13 +11,14 @@ import Router from './Router';
 class App extends Component{
 	componentWillMount(){
 		// Initialize Firebase
+		//fill the fields
   		var config = {
-    		apiKey: "AIzaSyBkqohFSXvY8v0PfdhKZYwN4erwR7HYn_Y",
-    		authDomain: "manager-beaa9.firebaseapp.com",
-    		databaseURL: "https://manager-beaa9.firebaseio.com",
-   		 	projectId: "manager-beaa9",
-    		storageBucket: "manager-beaa9.appspot.com",
-    		messagingSenderId: "529862063148"
+    		apiKey: "",
+    		authDomain: "",
+    		databaseURL: "",
+   		 	projectId: "",
+    		storageBucket: "",
+    		messagingSenderId: ""
   		};
   		firebase.initializeApp(config);
 	}
